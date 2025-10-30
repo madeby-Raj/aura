@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": ["Hey, I'm AURA. How can I help you today?", "Hello! What can I do for you?"]
+    },
+    {
+      "tag": "name_set",
+      "patterns": ["my name is", "i am", "call me"],
+      "responses": ["Nice to meet you, {name}!", "Got it — I will remember your name, {name}."]
+    },
+    {
+      "tag": "name_query",
+      "patterns": ["what is my name", "do you remember my name", "who am i"],
+      "responses": ["Your name is {name}.", "I remember you, {name}!"]
+    },
+    {
+      "tag": "open_youtube",
+      "patterns": ["open youtube", "play youtube", "open youtube please"],
+      "responses": ["Opening YouTube for you."]
+    },
+    {
+      "tag": "open_facebook",
+      "patterns": ["open facebook", "facebook", "open fb"],
+      "responses": ["Opening Facebook..."]
+    },
+    {
+      "tag": "open_google",
+      "patterns": ["open google", "search for", "google"],
+      "responses": ["Opening Google..."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what time is it", "tell me the time", "current time"],
+      "responses": ["It's {time}."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "joke", "say something funny"],
+      "responses": ["Why don't programmers like nature? It has too many bugs.", "I would tell you a UDP joke, but you might not get it."]
+    },
+    {
+      "tag": "reminder_set",
+      "patterns": ["remind me", "set reminder", "remind"],
+      "responses": ["Reminder set! I will remind you then."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you"],
+      "responses": ["Goodbye! Take care.", "See you soon!"]
+    }
+  ]
+}
