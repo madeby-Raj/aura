@@ -3,4 +3,5 @@ requests
 scikit-learn
 sympy
 wikipedia
+textblob
 
